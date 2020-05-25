@@ -183,3 +183,15 @@ ul {
 .accessible-world p {
   margin: 10px 0 20px;
 }
+
+/* Social Media */
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 30px 0 30px;
+}
+
+.social-media * {
+  margin-right: 10px;
+}
