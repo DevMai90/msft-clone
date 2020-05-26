@@ -273,3 +273,29 @@ ul {
   color: #262626;
   border-bottom: 1px solid;
 }
+
+/* Only takes effect if our screen size is 700px or lower */
+@media (max-width: 700px) {
+  .home-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .xbox .content p {
+    display: none;
+  }
+
+  .xbox .content h2 {
+    margin-bottom: 20px;
+  }
+
+  .accessible-world .content {
+    width: 70%;
+  }
+  .accessible-world .content h2 {
+    font-size: 22.5px;
+  }
+
+  .links .links-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
